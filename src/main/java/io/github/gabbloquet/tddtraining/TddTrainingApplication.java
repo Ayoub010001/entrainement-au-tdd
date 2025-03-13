@@ -13,10 +13,6 @@ public class TddTrainingApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TddTrainingApplication.class, args);
-
-		IFizzBuzzCompute fizzBuzz = new FizzBuzzCompute();
-		String result = fizzBuzz.compute(100);
-		System.out.println(result);
 	}
 
 }
